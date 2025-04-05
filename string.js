@@ -37,14 +37,14 @@
 
 
 
-                   //    <  trim >  ;
+                   //    <  trim ()>  ;
 // let st="      JavaScript is fun loving and JavaScript is Easy";
 
 // console.log(st.trim());
 
 
 
-           //  < split  >  ;
+           //  < split()  >  ;
 
 // let spl1="Con-vert it in-to ar-ray";
 // console.log(spl1.split("-"));
@@ -55,22 +55,25 @@
 // IMP ;
 // ----------------------------------Template Letrals (` `) " Back tick "--------------------------------------------------;
 
-function sach(){
-    alert(`Hello i am "Rahul" and i am from 'Bhopal' `);
-}
-sach();
+// function sach(){
+//     alert(`Hello i am "Rahul" and i am from 'Bhopal' `);
+// }
+// sach();
 
-let a = `hello <h1> rahul </h1>
-meena `;
+// let a = `hello <h1> rahul </h1>
+// meena `;
 
-document.write(a);
-let name = "Rahul";
-let age = 24;
-let c= `Hello i am ${name} and i am ${age} years old`;
-console.log(c);
+// document.write(a);
+// let name = "Rahul";
+// let age = 24;
+// let c= `Hello i am ${name} and i am ${age} years old`;
+// console.log(c);
 
 // 1st use =  Supports Single Quotes('')  and Double("");
 // 2nd use =  Supports Multi-Line String;
 // 3rd use =  Supports HTML Tags;
-// 4th use =  Supports  
+// 4th use =  Supports  dricte access to variable;
+
+
+
                     
