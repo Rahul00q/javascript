@@ -12,8 +12,8 @@
  // 'use strict' 2016 ;
  // let and conts, arrow function;
 // Data Type ;
-// Three two of data types 
-//1. primitive data types
+// Three two of data types ;
+//1. primitive data types;
 //  1. number = integer & floating-point numbers
 //  2. boolean = true or false 
 // 3.string = a sequence of numerical;
@@ -65,7 +65,7 @@
 
 
 
-// *BOM
+// *********************************************************BOM***********************************************************
 // Browser Object Model
 
 // `.Intrecting with the browsing window
@@ -74,22 +74,23 @@
 // method; 
 //  alert = msg show krta hai; confirm = do buttons deta hai, true /false; prompt = input lene ke liye and feedback lene ke liye;
 
-// hw 
-// user sa prompt ma do value mangane ha 
-// int no 1
-// int no 2
+// hw ;
+// user sa prompt ma do value mangane ha ;
+// int no 1;
+// int no 2;
 
-// then add the ans
+// then add the ans;
 
-//  ** parseInt ,parseFloat ,Number it is convet string into number
+//  ** parseInt ,parseFloat ,Number it is convet string into number;
 
-// **DOM
-//   document object model
+// **********************************************************DOM**************************************************************************************
+//   document object model;
+// it is a tree type of structure in  dom  it be can changed in html and access of run in java script;
 
-// hw
+// hw;
 // 2 ya 3 button ushka click karna pa alert aiya this is 1 fn 2
 
-// 3function 3 button
+// 3function 3 button;
 
 // string methods ;
 // length() , slice(), concat(), substring(), replace(), toUpper(), replace(), charAt(), split(), indexOff() ,trim();

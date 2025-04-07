@@ -51,4 +51,4 @@
 let arr=[2,6,3,7,1,8];
 console.log(arr.sort());
 console.log(arr.reverse());
-extends;
+
