@@ -74,6 +74,3 @@
 // 3rd use =  Supports HTML Tags;
 // 4th use =  Supports  dricte access to variable;
 
-
-
-                    
