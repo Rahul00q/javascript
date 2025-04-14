@@ -1,4 +1,4 @@
-// --------------------------------Arrow ()------------------------------------------------------
+// --------------------------------Arrow ()-      day 1       -----------------------------------------------------
 
 // let sid = ()=>{
 
@@ -35,19 +35,23 @@
 
 
 
-    // --------------------------------------------Day 2-----------------------------------------
+    // --------------------------------------------     Day 2     -----------------------------------------
 
-    function change(){
-        let show= document.querySelector("#text");
-        show.style.fontSize="30px";
+    // function change(){
+    //     let show= document.querySelector("#text");
+    //     show.style.fontSize="30px";
 
-    }
+    // }
 
-    function it(){
-        let show = document.querySelector("#text");
-        show.style.display="none";
-    }
-    function its(){
-        let show = document.querySelector("#text");
-        show.style.displayrah="block";
-    }
+    // function it(){
+    //     let show = document.querySelector("#text");
+    //     show.style.display="none";
+    // }
+    // function its(){
+    //     let show = document.querySelector("#text");
+    //     show.style.displayrah="block";
+    // }
+  
+    
+
+    
