@@ -11,16 +11,26 @@
 // }
 
 
+// function it(){
+//     let a = document.querySelector("text");
+//     a.innerHTML="Rahul";
+//     show.style.fontSize="100px";
+
+// }
+// function its(){
+//     let a = document.querySelector("text");
+//     a.innerHTML="Rahul";
+//     show.style.fontSize="100px";
+
+// }
+
+
+
 function it(){
-    let a = document.querySelector("text");
-    a.innerHTML="Rahul";
-    show.style.fontSize="100px";
+    let a=document.querySelector("text")
+    a.innerHTML="rahul";
+    show.style.show="none";
 
 }
-function its(){
-    let a = document.querySelector("text");
-    a.innerHTML="Rahul";
-    show.style.fontSize="100px";
-
-}
+if()
 
