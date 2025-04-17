@@ -36,8 +36,14 @@
 
 // -----------------------------------------------Spread-------------------------------------------------------------   
 // The Spread operator(...) is used to "Spread" the elements of an object or array into another object or array
-   let student={Name:"Ram ",Age:34};
-   let student2={grade:"A",City:"Vidisha"};
+  //  let student={Name:"Ram ",Age:34};
+  //  let student2={grade:"A",City:"Vidisha"};
 
-   const combinedStudent= {...student,...student2};
-   console.log(combinedStudent);
+  //  const combinedStudent= {...student,...student2};
+  //  console.log(combinedStudent);
+
+
+
+
+
+  
