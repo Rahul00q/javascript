@@ -60,6 +60,7 @@
 // -------------------------------------for each loop--------------------------------------------------
 // for each loop ek normal loop hai yha reteun nii krta hai;
 // for each loop are rear used in java script ;
+// for each loop string me retrun krta hai;
 
 let num=[2,3,6,5,18,8,4];
  newarr=num.forEach((e)=>{

@@ -95,3 +95,9 @@
 // string methods ;
 // length() , slice(), concat(), substring(), replace(), toUpper(), replace(), charAt(), split(), indexOff() ,trim();
 // replaceAll();
+// java script is a synchronous language but kuch method hai hn jo use asynchronous beive krata hai;
+// set timeout = setTimeout() is used to execute a function once a specifed time delay (in miliseconds);
+//   syntax:-     setTimeout(function,delay);
+
+// setInterval() = is used to execute a function repeatedly at specified intervals (in miliseconds).
+//     syntax:-      setInterval(function,interval);
