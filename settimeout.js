@@ -51,7 +51,25 @@
 //         console.log(count)
 //     },3000)
 // }
+// let show=document.querySelector("#text")
+// let click=()=>{
+//     clearTimeout(()=>{
+//         console.log("Rahul")
+//          show.innerHTML="Rahul"
+//     },3000)
+// }
+// let stopp=()=>{
+//     clearInterval(Set-intrval-name)
+// }
 
 
+// let count =0;
 
+// let ook=()=>{
+
+//  let inte=   setInterval(()=>{
+//         count++
+//         console.log(count)
+//     },3000)
+// }
 // // clearInterval()
