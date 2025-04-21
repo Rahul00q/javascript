@@ -32,11 +32,21 @@
 
 //-----------------------------------------------------------math-------------------------------------------------------------------
 
-console.log(Math.random(0,10000)*10000)
-console.log(Math.random(0,1000),length=4)
-console.log(Math.trunc(4.7))
-console.log(Math.min(1,2,1,3))
-console.log(Math.max(1,2,3))
-console.log(Math.floor(2.7))
-console.log(Math.ceil(4.5))
-console.log(Math.round())
+// console.log(Math.random(0,10000)*10000)
+// console.log(Math.random(0,1000),length=4)
+// console.log(Math.trunc(4.7))
+// console.log(Math.min(1,2,1,3))
+// console.log(Math.max(1,2,3))
+// console.log(Math.floor(2.7))
+// console.log(Math.ceil(4.5))
+// console.log(Math.round())
+
+//   task 
+// let rannnumber = Math.random();
+// rannnumber;
+// let opt=Math.round(rannnumber*9000+1000)
+// console.log(opt);
+
+
+
+
