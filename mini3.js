@@ -1,23 +1,30 @@
-let setAlaram=()=>{
-    let usertime=document.querySelector("#usertime").value 
+let setAlarm=()=>{
+
+    let  usertime=document.querySelector("#usertime").value //6:03
     let show=document.querySelector("#show")
-    // console.log(usertime)
-    let time=new Date()
+    let audiosound=document.querySelector("#audioo")
 
-    let Alaramtime=`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
-    
-    if(Alaramtime==usertime){
-          show.innerHTML="Alaram is Ringing"
+      setInterval(()=>{
+
+         let Time=new Date()
+      
+//  let alarmtime=`${Time.getHours()}:${Time.getMinutes()}`
+
+       let alarmtime=`${Time.getHours().toString().padStart(2,"0")}:${Time.getMinutes().toString().padStart(2,"0")}`
+
+      
+
+    if (alarmtime==usertime) {
+        show.innerHTML="Alarm is ringing"
+        audiosound.play()
     }
-    
-    
-    
-    
+    else{
+        show.innerHTML="Alarm is set"
+    }
+
+      },1000)
 
 
 
-
-
-
-
+ 
 }
