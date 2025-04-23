@@ -28,3 +28,11 @@ let setAlarm=()=>{
 
  
 }
+let stopAlarm = () => {
+    clearInterval(intervalId); 
+    if (audio) {
+        audio.pause();         
+        audio.currentTime = 0; 
+    }
+    document.querySelector("#show").innerHTML = " Alarm stopped.";
+}
