@@ -4,78 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #errname{
-            background-color: blanchedalmond;
-            font-size: 50px;
-            align-items: center;
-            justify-content: center;
-        }
-        #errnumber{
-            background-color: blanchedalmond;
-            font-size: 50px;
-            align-items: center;
-            justify-content: center;
-        }
-        #erremail{
-            background-color: blanchedalmond;
-            font-size: 50px;
-            align-items: center;
-            justify-content: center;
-        }
-        #errpass{
-            background-color: blanchedalmond;
-            font-size: 50px;
-            align-items: center;
-            justify-content: center;
-        }
-        #errcpass{
-            background-color: blanchedalmond;
-            font-size: 50px;
-            align-items: center;
-            justify-content: center;
-        
-        }
-        #name{
-            font-size: 30px;
-            color: brown;
-        }
-        #number{
-            font-size: 30px;
-            color: brown
-        }
-        #email{
-            font-size: 30px;
-            color: brown
-        }
-        #pass{
-            font-size: 30px;
-            color: brown
-        }
-        #cpass{
-            font-size: 30px;
-            color: brown
-        }
-    </style>
+    <link rel="stylesheet" href="form.css">
 </head>
-<body>
-    <form >
-        <p id="errname"></p>
-        Enter name : <input type="text" id="name"><br><br>
-        <p id="errnumber"></p>
-        Enter number: <input type="text" id="number"><br><br>
-        <p id="erremail"></p>
-        Enter email: <input type="text"  id="email"><br><br>
-        <p id="errpass"></p>
-        Enter password: <input type="text"  id="pass"><br><br>
-        <p id="errcpass"></p>
-        Enter C pass: <input type="text"  id="cpass"><br><br>
-
-        <input type="submit" value="login" onclick="return Val()">
-
+ <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        padding-left: 30%;
+        padding-top: 10%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       overflow: hidden;
+      height: 100%;
+      width: 100%;
+      
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819384_1280.jpg');*/
+      background-image: no-repeat;
+    } 
+    
+    
+    #singup{
+             
+        color: rgb(75, 78, 80);
+        text-align: center;
+        font-family:  'Trebuchet MS';
+       font-size: 40px;
+    }
+    
+    #container{
+    
+        width: 100%;
+        display: grid;
+        grid-template-columns:  auto auto ;
+    
+        /* border: 2px solid rgb(200, 193, 193); */
+    
+    }
+    
+    
+    
+         
         
-    </form>
+    
+    
+    #forme{
+       display: grid;
+       
+        justify-content: center;
+        align-items: center;
+    
+        text-decoration: none;
+     /* background-image: url('https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819384_1280.jpg');*/
+        box-shadow: 4px 5px 53px 10px gray;
+        border-radius: 5%;
+    
+    }
+    
+    
+    #name{
+        width: 100%;
+        font-style: italic;
+        border: 1px solid rgb(145, 145, 184);
+        border-radius: 4%;
+         box-shadow: 2px 2px 9px gray;
+        
+    }
+    
+    #number{
+        font-style: italic;
+        border: 1px solid rgb(145, 145, 184);
+        border-radius: 4%;
+         box-shadow: 2px 2px 9px gray;
+        
+    }
+    
+    #email{
+        font-style: italic;
+        border: 1px solid rgb(145, 145, 184);
+        border-radius: 4%;
+         box-shadow: 2px 2px 9px gray;
+        
+    }
+    
+    #pass{
+        font-style: italic;
+        border: 1px solid rgb(145, 145, 184);
+        border-radius: 4%;
+         box-shadow: 2px 2px 9px gray;
+        
+    }
+    #cpass{
+        font-style: italic;
+        border: 1px solid rgb(145, 145, 184);
+        border-radius: 4%;
+         box-shadow: 2px 2px 9px gray;
+        
+    }
+    
+    #login{
+        font-style: initial;
+       border: 3px solid rgb(88, 88, 91);
+       border-radius: 9% ;
+        background-color:rgb(187, 195, 195) ;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 2px 2px 9px gray;
+    }
+</style> 
+<body>
 
+<div id="container">
+
+    <form id="forme">
+        <h1 id="singup">Sing up</h1><br><br>
+
+              <p id="errname"></p>
+
+        <input type="text" id="name" placeholder="Enter your name"> <br><br>
+
+        <p id="errnumber"></p>
+
+        <input type="number" id="number" placeholder="Enter your number"> <br><br>
+
+        <p id="erremail"></p>
+
+       <input type="email" id="email" placeholder="Enter your email"> <br><br>
+
+       <p id="errpass"></p>
+
+        <input type="password" id="pass" placeholder="Enter Password"> <br><br> 
+
+        <p id="errcpass"></p>
+
+          <input type="password" id="cpass" placeholder="Enter Conferm-Password"> <br><br> 
+
+        <input type="submit" id="login" value="sing up"  onclick="return val()"><br><br>
+
+ </form>
+
+</div>
+   
     <script src="form.js"></script>
 </body>
 </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding-left: 30%;
+        padding-top: 5%;
+
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        background-image: url('images/download.jpeg')no-repeat;
+        
+        
+    }
+
+    h1 {
+        justify-content: center;
+        align-items: center;
+        padding-left: 15%;
+
+
+    }
+
+    #signname {
+        margin-left: 25px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4%;
+        box-shadow: 2px 2px 9px gray;
+    }
+
+    #signemail {
+        margin-left: 25px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4%;
+        box-shadow: 2px 2px 9px gray;
+    }
+
+    #signnum {
+        margin-left: 10px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4%;
+        box-shadow: 2px 2px 9px gray;
+    }
+
+    #signpass {
+        
+        margin-left: 35px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4%;
+        box-shadow: 2px 2px 9px gray;
+    }
+
+    #signcpass {
+        margin-left: 25px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4%;
+        box-shadow: 2px 2px 9px gray;
+    }
+
+    #bt1 {
+        font-size: 30px;
+        margin-left: 174px;
+        color: black;
+        background-color: green;
+    }
+</style>
+
+<body>
+    <h1>Sign Up</h1>
+
+    <form action="">
+        <p id="errorname"></p>
+        Enter Name: <input type="text" id="signname"><br><br>
+        Enter Email: <input type="text" id="signemail"><br><br>
+        Enter Number: <input type="text" id="signnum"><br><br>
+        Enter Pass:   <input type="text" id="signpass"><br><br>
+        Enter Cpass: <input type="text" id="signcpass"><br><br>
+
+        <input type="submit" value="Singup" id="bt1" onclick="return Singup()">
+
+    </form>
+
+    <script src="local.js"></script>
+</body>
+
+</html>
