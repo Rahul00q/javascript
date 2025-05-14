@@ -1,0 +1,62 @@
+{
+"Hotel":[{
+    
+    "Name":"Rahil",
+    "Age":25,
+    "Aadhar N0":"8325783456752",
+    "Checkin":"02-7-2025",
+    "Checkout":"20-8-2025",
+    "City":"Bhopal",
+    "Person":4,
+    "Price":2000
+},{
+    
+    "Name":"Rahul",
+    "Age":25,
+    "Aadhar N0":"8300783456702",
+    "Checkin":"11-8-2025",
+    "Checkout":"27-9-2025",
+    "City":"Indore",
+    "Person":3,
+    "Price":1500
+},{
+     
+    "Name":"Rahela",
+    "Age":25,
+    "Aadhar N0":"8982783456742",
+    "Checkin":"18-11-2025",
+    "Checkout":"23-12-2025",
+    "City":"Kashmir",
+    "Person":2,
+    "Price":1000
+},
+{
+      
+    "Name":"Aditya",
+    "Age":25,
+    "Aadhar N0":"458982783478",
+    "Checkin":"12-11-2025",
+    "Checkout":"21-12-2025",
+    "City":"Darzling",
+    "Person":5,
+    "Price":2500
+},
+{
+    "Name":"Aditya",
+    "Age":25,
+    "Aadhar N0":"458982783703",
+    "Checkin":"20-11-2025",
+    "Checkout":"21-12-2025",
+    "City":"Bengaluru",
+    "Person":5,
+    "Price":2500  
+}
+
+
+
+
+]
+
+
+
+}

@@ -1,6 +1,6 @@
 // ---------------------------Array Methods;-------------------------------;
- //  1. length() = returns the number of elements in the array;
- //  2. pop() = remove the last element;
+ //  1. length() = returns the number of elements in the array there are start to 1;
+ //  2. pop() = remove the last element ;
  //  3. push() = add a new element to the end;
  //  4. shift() = remove the frist elements;
  //  5. unshift()= add a new element to the beginning; 

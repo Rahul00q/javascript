@@ -25,9 +25,10 @@
 
 // Scope 
 //  scope are use in the curly brases{};
-// scope refers to the accessibility of variables , function ,and objects 
+// scope refers to the accessibility of variables , function ,and objects ;
 
-
+// let are reasign and not are redecleared;
+// var are not reasign and there  are redecleared;
 // VAR are function scope;
 // LET or CONS are blocked scope;
 
@@ -37,7 +38,7 @@
 // reassignment = var or let
 
 // **Hoisting
-// jitna bhe var key word sa variable decliration ha wo unka function ka andae top pa ja ka baith jata ha
+// jitna bhe var key word sa variable decliration ha wo unka function ka andar top pa ja ka baith jata ha
 // Hoisting are use only var
 // its is donot work in lets and cons
 
@@ -72,7 +73,9 @@
 
 // first we write window.alert("hi")
 // method; 
-//  alert = msg show krta hai; confirm = do buttons deta hai, true /false; prompt = input lene ke liye and feedback lene ke liye;
+// alert = msg display/show krta hai; 
+// confirm = do buttons deta hai, true /false / ok and chanle; 
+// prompt = input lene ke liye and feedback lene ke liye;
 
 // hw ;
 // user sa prompt ma do value mangane ha ;
