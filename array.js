@@ -27,7 +27,7 @@
 // console.log(a.concat(b));
 
 //   ---------------------------------------Day-2------------------------------------------------------------------
-
+//  ----------------------------slice--------------------------------------------------------------------
 // slice() method tokde me tod deta hai;
 // let fruits=["Apple","Mango","Banana","Grapes"];
 // console.log(fruits.slice(1,3));
@@ -48,7 +48,7 @@
 
 
 
-let arr=[2,6,3,7,1,8];
-console.log(arr.sort());
-console.log(arr.reverse());
+// let arr=[2,6,3,7,1,8];
+// console.log(arr.sort());
+// console.log(arr.reverse());
 
