@@ -3,9 +3,9 @@
   // syntax{
   //   const{name,age}=student;
   // }
-  // Spritopretor
+  // Spritopretor;
 
-// key or pairs value
+// key or pairs value;
 
 // key:value ;
 //  let obj ={ 

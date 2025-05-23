@@ -104,3 +104,7 @@
 
 // setInterval() = is used to execute a function repeatedly at specified intervals (in miliseconds).
 //     syntax:-      setInterval(function,interval);
+
+
+
+//  dom is The DOM is a W3C (World Wide Web Consortium) standard.
